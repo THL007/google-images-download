@@ -402,7 +402,7 @@ class googleimagesdownload:
     def format_object(self, object):
         data = object[1]
         main = data[3]
-        info = data[9]
+        info = data[25]    #info = data[9]
         if info is None:
             info = data[11]
         formatted_object = {}
